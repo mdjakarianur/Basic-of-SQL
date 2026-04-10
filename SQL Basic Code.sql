@@ -1,9 +1,9 @@
-CREATE DATABASE jakasoft;
+CREATE DATABASE jakaria;
 
-DROP DATABASE jakasoft;
+DROP DATABASE jakaria;
 
-BACKUP DATABASE jakasoft
-TO DISK = 'D:\backups\jakasoft.bak';
+BACKUP DATABASE jakaria
+TO DISK = 'D:\backups\jakaria.bak';
 
 CREATE TABLE Persons (
     PersonID int,
@@ -13,7 +13,7 @@ CREATE TABLE Persons (
     City varchar(255)
 );
 
-DROP TABLE jakasoft;
+DROP TABLE jakaria;
 
 ALTER TABLE Customers
 ADD Email varchar(255);
